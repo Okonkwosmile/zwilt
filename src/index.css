@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+@layer components {
+  .clip-slant {
+    clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+  }
+  
+  .clip-parallelogram {
+    background-color: #4299e1; /* Adjust background color as needed */
+    transform: skew(-20deg);
+  }
+  
+
+}
